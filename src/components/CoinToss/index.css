@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.app-con {
+  background-image: linear-gradient(to right, #e2a139, #f9d423);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.app-card-con {
+  background-color: #fff;
+  border-radius: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+}
+.hding {
+  color: #a35200;
+}
+.para {
+  font-weight: 500;
+}
+.img-size {
+  width: 200px;
+}
+.btn {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f9d423;
+  color: #a35200;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 40px;
+}
+
+.tags-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-right: 50px;
+  margin-top: 40px;
+}
+@media screen and (max-width: 768px) {
+  .tags-con {
+    flex-direction: column;
+  }
+}
+.each-tag {
+}
