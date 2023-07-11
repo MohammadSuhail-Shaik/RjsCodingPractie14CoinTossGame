@@ -9,7 +9,7 @@ const imgAlt = 'toss result'
 
 class CoinToss extends Component {
   state = {
-    status: false,
+    status: true,
     headScore: 0,
     tailsScore: 0,
     totalScore: 0,
